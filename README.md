@@ -1,3 +1,23 @@
+OBJECTIVE : NODEJS
+DAY 1
+STARTED BUILDING NOTES MAKING APP
+Added NPM packages (chalk, yargs)
+Added addNote and removeNote funtionality
+Used Nodemon 
+
+Day 2
+Added listNotes and readNotes functionality
+Used Node Debugger Tool to debug the complete program
+
+Day 3
+Started Working on a Using API(Map Box and Open Weather Map)
+Learnt about Asynchronous NodeJS ( Callback,its queue Event Loop )
+
+Day 4
+Learnt about making Http Requests and its customization, More about Callback funtions and callback abstraction
+
+
+
 
 # CODE-DOWN-2020-Challenge
 A coding challenge to enhance your learning. <br>
