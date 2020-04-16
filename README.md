@@ -16,6 +16,9 @@ Learnt about Asynchronous NodeJS ( Callback,its queue Event Loop )
 Day 4
 Learnt about making Http Requests and its customization, More about Callback funtions and callback abstraction
 
+Day 5
+Learnt About callback chaining and object destructuring
+
 
 
 
