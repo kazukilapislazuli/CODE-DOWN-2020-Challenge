@@ -19,6 +19,9 @@ Learnt about making Http Requests and its customization, More about Callback fun
 Day 5
 Learnt About callback chaining and object destructuring
 
+Day 6,7
+Learning to setup webserver using nodeJS
+(Used Npm libraries : Express, handlebars and hbn(a library to pull up handlebars in nodejs))
 
 
 
