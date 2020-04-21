@@ -1,15 +1,18 @@
 const path = require('path')
 const express = require('express')
+const hbs = require('hbs')
 
 const app = express()
 
 //Define path for express configuration
 const publicDirectoryPath = path.join(__dirname, '../public')
-const viewsPath = path.join(__dirname, '../templates')
+const viewsPath = path.join(__dirname, '../templates/views')
+const partialsPath = path.join(__dirname, '../templates/partials')
 
 //Setup handle bars and customized views
 app.set('view engine', 'hbs')
 app.set('views', viewsPath)
+hbs.registerPartials(partialsPath)
 
 //Setup a directory to serve static files
 app.use(express.static(publicDirectoryPath))
@@ -17,7 +20,6 @@ app.use(express.static(publicDirectoryPath))
 app.get('', (req,res) => {
     res.render('index', {
         title : 'Hello World',
-        name : 'Snehasis Sahoo'
     })
 })
 
